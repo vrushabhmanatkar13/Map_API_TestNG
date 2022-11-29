@@ -2,6 +2,7 @@ package com.Util;
 
 import java.lang.reflect.Method;
 
+import org.openqa.selenium.devtools.v85.headlessexperimental.model.ScreenshotParams;
 import org.testng.ITestResult;
 import org.testng.internal.TestResult;
 
@@ -13,6 +14,7 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.AbstractReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+
 
 
 
@@ -50,6 +52,7 @@ public class Spark_reportor {
 	}
 	public static void Fail(String fail){
 		test.log(Status.FAIL, fail);
+		
 		
 	}
 	public static void flush() {
