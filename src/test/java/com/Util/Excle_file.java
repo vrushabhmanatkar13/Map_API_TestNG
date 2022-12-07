@@ -41,8 +41,8 @@ public class Excle_file {
 		  data=new Object[lastrow-1][lastcell];
 		  
 		 System.out.println("last row "+ lastrow); 
-		  System.out.println("last cell "+ lastcell);
-		 System.out.println(getstrval(rowstart,0));
+		//  System.out.println("last cell "+ lastcell);
+	//	 System.out.println(getstrval(rowstart,0));
 		  
 		 if (testname.equalsIgnoreCase(getstrval(rowstart,0))) {
 			 
